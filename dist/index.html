@@ -21,7 +21,7 @@
     <div class="flex">
       <a href="./" class="focus-visible:outline-primary-950 dark:group-focus-visible:outline-primary-200 rounded-md focus-visible:outline focus-visible:outline-2">
         <span class="sr-only">Stone</span>
-        <img class="h-8 w-auto" width="65" height="40" :src="$store.theme.isDark ? '/assets/logo-inverted.svg' : '/assets/logo.svg'" alt="Stone">
+        <img class="h-8 w-auto" width="65" height="40" :src="$store.theme.isDark ? './assets/logo-inverted.svg' : './assets/logo.svg'" alt="Stone">
       </a>
     </div>
 
@@ -114,7 +114,7 @@
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="flex flex-col gap-16">
       <div class="flex flex-col items-start gap-8 sm:gap-10">
-        <div class="flex max-w-xl flex-col items-start gap-4 sm:gap-6">
+        <div class="flex flex-col items-start gap-4 sm:gap-6">
           <h1 class="text-4xl font-medium tracking-tight sm:text-5xl lg:text-6xl">
             We design and build your next digital experience
           </h1>
@@ -126,7 +126,6 @@
           Get started
         </a>
       </div>
-      <img class="h-auto w-full rounded-3xl" width="1280" height="640" src="./assets/hero.webp" alt="Hero picture">
     </div>
   </div>
 </section>
@@ -408,7 +407,7 @@
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="flex flex-col justify-between gap-12 sm:gap-16 lg:flex-row">
       <div class="flex max-w-sm flex-col items-start gap-6 sm:gap-8">
-        <img class="h-8 w-auto" width="65" height="40" :src="$store.theme.isDark ? '/assets/logo-inverted.svg' : '/assets/logo.svg'" alt="Stone">
+        <img class="h-8 w-auto" width="65" height="40" :src="$store.theme.isDark ? './assets/logo-inverted.svg' : './assets/logo.svg'" alt="Stone">
         <p class="text-primary-950/70 dark:text-primary-200/70 text-base">
           Stone is a premium Astro theme specially designed for Business, Marketing, SaaS and
           Startup websites.
